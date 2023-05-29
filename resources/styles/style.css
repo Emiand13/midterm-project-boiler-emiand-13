@@ -637,12 +637,15 @@ h4 {
 /* ------------------------------ Recent projects ------------------------------ */
 
 .recent-projects {
-  margin-top: 120px;
+   margin-top: 120px; 
+ 
 }
 
+
+
 .recent-projects h3 {
-  margin: 50px 0;
-}
+  margin: 30px 0;
+} 
 
 .projects {
   width: 100%;
@@ -671,6 +674,12 @@ h4 {
 
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+/* display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 25px;
+grid-row-gap: 0px;
+} */
 
 .projects .container {
   display: flex;

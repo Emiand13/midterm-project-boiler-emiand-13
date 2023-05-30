@@ -1,52 +1,44 @@
-// projects.js
+/* Crea tu propia lógica para hacer fetch de un post y enseñar su información utilizando DOM manipulation */
+/* ADVANCED: consigue que la info del post funcione dinámicamente y enseñe un post u otro según la URL */
 
-// Función para obtener la información de un proyecto y mostrarla en la página
-// Obtener los proyectos desde la API
-// Obtener la sección de proyectos
-const projectsSection = document.getElementById('projects');
-
-// Obtener los proyectos desde la API
-fetch('https://raw.githubusercontent.com/ironhack-jc/mid-term-api/main/projects')
-  .then(response => response.json())
-  .then(data => {
-    // Invertir el orden de la matriz para obtener los proyectos en orden ascendente
-    const projects = data.reverse().slice(0, 3);
-
-    // Crear elementos HTML para cada proyecto y agregarlos a la sección de proyectos
-    projects.forEach(project => {
-      const container = document.createElement('div');
-      container.classList.add('container');
-
-      const image = document.createElement('img');
-      image.classList.add('projects-img');
-      image.src = project.image;
-      image.alt = project.name;
-
-      const innerProject = document.createElement('div');
-      innerProject.classList.add('inner-project');
-
-      const projectName = document.createElement('h4');
-      projectName.classList.add('body-intro');
-      projectName.textContent = project.name;
-
-      const projectDescription = document.createElement('p');
-      projectDescription.classList.add('feature-text');
-      projectDescription.textContent = project.description;
-
-      const learnMoreLink = document.createElement('a');
-      learnMoreLink.href ='./project-page-simple.html';
-      learnMoreLink.textContent = 'Learn more';
-
-      innerProject.appendChild(projectName);
-      innerProject.appendChild(projectDescription);
-      innerProject.appendChild(learnMoreLink);
-
-      container.appendChild(image);
-      container.appendChild(innerProject);
-
-      projectsSection.appendChild(container);
-    });
-  })
-  .catch(error => {
-    console.log('Error al obtener los proyectos:', error);
+document.addEventListener("DOMContentLoaded", function() {
+    const endpoint = 'https://raw.githubusercontent.com/ironhack-jc/mid-term-api/main/projects';
+  
+    // Función para obtener los datos del proyecto con el uuid 1
+    function getProjectData() {
+      fetch(endpoint)
+        .then(response => response.json())
+        .then(data => {
+          const projects = data;
+          const project = projects.find(project => project.uuid === "1");
+          if (project) {
+            printProjectDetails(project);
+          }
+        })
+        .catch(error => {
+          console.log(error);
+        });
+    }
+  
+    // Función para mostrar los detalles del proyecto en los elementos HTML existentes
+    function printProjectDetails(project) {
+      // Actualiza los elementos HTML con los detalles del proyecto
+      const projectNameElement = document.getElementById("project-name");
+      const projectDescriptionElement = document.getElementById("project-description");
+      const projectContentElement = document.getElementById("project-content");
+      const projectImageElement = document.getElementById("project-image");
+      const projectCompletedOnElement = document.getElementById("project-completion-date");
+  
+      projectNameElement.textContent = project.name;
+      projectDescriptionElement.textContent = project.description;
+      projectContentElement.innerHTML = project.content;
+      projectImageElement.setAttribute("src", project.image);
+      projectCompletedOnElement.textContent = "Completed on " + project.completed_on;
+    }
+  
+    // Llamada a la función para obtener los datos del proyecto
+    getProjectData();
   });
+  
+  
+  

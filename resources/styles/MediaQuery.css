@@ -1,0 +1,640 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto:wght@100;300;400;500&display=swap");
+
+/* ------------Colors-------------- */
+
+:root {
+  --primary: #072ac8;
+  --secondaryDark: #ffc600;
+  --dark-blue-hover: #536ad5;
+  --blue1: #33cfff;
+  --blue2: #8bccf8;
+  --light-blue: #b0dcf7;
+  --black: #282e4b;
+  --dark-grey: #616b8f;
+  --light-grey: #f2f4fc;
+  --white: #f3f9fe;
+  --yellow: #ffc600;
+  --greenyellow: rgb(153, 255, 0);
+  --diameter: 25vw;
+  --circular-line-width: 2px;
+}
+
+/*INDEX.HTML 990 PX=========================> */
+
+@media (min-width:990px) {
+
+  .move-logo {
+    width: 5rem;
+    height: 5rem;
+    margin-left: -0.5rem;
+    margin-top: 0.6rem;
+
+    transition: transform 0.3s;
+
+  }
+
+  .move-logo:hover {
+    transform: scale(1.4);
+
+  }
+
+
+  .section1 {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 82vh;
+    margin-bottom: 80px;
+  }
+
+  .heroComposition {
+    position: relative;
+    width: 35vw;
+    height: 45vh;
+
+  }
+
+  .hero {
+    margin-left: 5vw;
+    width: 38vw;
+
+  }
+
+  .creditcard.card1 {
+    position: absolute;
+    width: 20vw;
+  }
+
+
+  .creditcard.card2 {
+    position: relative;
+    width: 20vw;
+    padding-bottom: 5rem;
+  }
+
+  .card1 {
+    left: 18px;
+  }
+
+  .card2 {
+    width: 20vw;
+    top: -60%;
+    right: -75%;
+
+  }
+
+  .home {
+    margin-top: 10vw;
+    margin-left: 10vw;
+    margin-right: 0;
+    width: 40vw;
+  }
+
+  .home h1 {
+    width: 36vw;
+    margin-bottom: 5px;
+  }
+
+  .home p {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    ;
+  }
+
+  .getinTouch:hover {
+    color: #8abbff;
+  }
+
+  .buttonContact {
+    display: flex;
+    /* justify-content: flex-end; */
+    border-radius: 15px;
+    font-size: 15px;
+  }
+
+  .buttonBlue {
+    margin-top: 55px;
+    background-color: #072AC8;
+    padding: 12px 25px 12px 25px;
+    color: #F2F4FC;
+    border-radius: 15px;
+
+  }
+
+  .buttonWhite {
+    margin-top: 10px;
+    background-color: rgb(239, 190, 28);
+    border-radius: 15px;
+    padding: 12px 25px 12px 25px;
+    color: white;
+  }
+
+  .seeourWork:hover {
+    color: #072AC8;
+  }
+}
+
+/* MAS PEQUEÑA QUE 766PX (MÓVIL) ============================= */
+
+@media (max-width: 766px) {
+  .move-logo {
+    width: 4rem;
+    height: 4rem;
+    margin-left: -0.5rem;
+    margin-top: 0.6rem;
+
+    transition: transform 0.3s;
+
+  }
+
+  .move-logo:hover {
+    transform: scale(1.4);
+
+  }
+
+  .section1 {
+    margin: 3% 7.5% 3% 7.5%;
+  }
+
+  .home {
+    margin-top: 20vw;
+    margin-bottom: 5vw;
+    height: 15vw;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .home h1 {
+    margin-top: 30vw;
+    font-size: 2rem;
+  }
+
+  .buttonsHero {
+    width: 300px;
+    justify-content: flex-start;
+  }
+
+  .getinTouch:hover {
+    color: #8abbff;
+  }
+
+  .buttonContact {
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 15px;
+    font-size: 15px;
+  }
+
+  .buttonBlue {
+    margin-top: 10px;
+    background-color: #072AC8;
+    padding: 12px 25px 12px 25px;
+    color: #F2F4FC;
+    border-radius: 15px;
+
+  }
+
+  .buttonWhite {
+    margin-top: 10px;
+    background-color: rgb(239, 190, 28);
+    border-radius: 15px;
+    padding: 12px 25px 12px 25px;
+    color: white;
+  }
+
+  .seeourWork:hover {
+    color: #072AC8;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .heroComposition {
+    margin-top: 35vw;
+    position: relative;
+    width: 80vw;
+  }
+
+  .hero {
+    margin-top: 10vw;
+    margin-left: 3vw;
+    width: 70vw;
+  }
+
+  .creditcard {
+    position: absolute;
+    width: 45vw;
+  }
+
+  .card1 {
+    left: -30px;
+  }
+
+  .card2 {
+    left: 65%;
+    top: 60%;
+  }
+}
+
+/* #MENU==TOGGLE==766PX======================================== */
+
+@media (min-width: 766px) {
+
+
+  #menu-toggle {
+
+    display: none;
+  }
+
+  .menu-button,
+  .menu-button::before,
+  .menu-button::after {
+    display: block;
+    background-color: rgb(255, 196, 0);
+    position: absolute;
+    height: 4px;
+    width: 30px;
+    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    border-radius: 2px;
+  }
+
+  .menu-button::before {
+    content: "";
+    margin-top: -8px;
+  }
+
+  .menu-button::after {
+    content: "";
+    margin-top: 8px;
+  }
+
+  #menu-toggle:checked+.menu-button-container .menu-button::before {
+    margin-top: 0px;
+    transform: rotate(405deg);
+  }
+
+  #menu-toggle:checked+.menu-button-container .menu-button::after {
+    margin-top: 0px;
+    transform: rotate(-405deg);
+  }
+
+  /* Este es el boton de la hamburguesa =============== */
+  .menu-button-container {
+    cursor: pointer;
+    justify-content: center;
+  }
+
+}
+
+@media (max-width: 766px) {
+
+  .move-logo {
+    width: 4rem;
+    height: 4rem;
+    margin-left: -1rem;
+    margin-top: 0.6rem;
+
+    transition: transform 0.3s;
+  }
+
+  .move-logo:hover {
+    transform: scale(1.4);
+  }
+
+  .menu-button-container {
+    display: flex;
+    padding-left: 25px;
+    margin-left: 0px;
+
+  }
+
+  .menu {
+    position: absolute;
+    top: 0;
+    margin-top: 50px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    padding-left: 0px;
+    background-color: #1aa1eb;
+  }
+
+  #menu-toggle~.menu li {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  #menu-toggle:checked~.menu li {
+    display: flex;
+    border: 1.5px solid var(--yellow);
+    height: 2.5em;
+    padding: 0.5em;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    align-items: center;
+  }
+
+  .menu>li {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0.5em 0;
+    width: 100%;
+   
+    background-color: var(--light-blue);
+
+  }
+
+  .menu>li:hover {
+    background-color: rgba(21, 21, 209, 0.096);
+  }
+
+  .menu>li:not(:last-child) {
+    border-bottom: 1px solid #444;
+  }
+
+  .top-nav button {
+    width: 85px;
+    height: 35px;
+    font-size: 12px;
+    padding: 0px;
+    background-color: var(--primary);
+  }
+}
+
+/*FIN MENU TOGGLE 766PX==================================== */
+
+/* ======================================================== */
+
+
+/* MAS PEQUEÑA QUE 990PX (TABLET) =========================== */
+
+
+@media (max-width: 990px) {
+  .hide-mobile {
+    display: none;
+  }
+
+  .flex-column-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flex-column-reverse-mobile {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .flex-start-mobile {
+    align-items: flex-start;
+  }
+
+  .full-width-mobile {
+    width: 100% !important;
+  }
+
+  .margin-mobile {
+    margin: 0 30px;
+  }
+
+  .space-evenly-mobile {
+    display: flex;
+    justify-content: space-evenly !important;
+  }
+}
+
+@media (min-width: 990px) {
+  .hide-desktop {
+    display: none;
+  }
+
+  .flex-row-desktop {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .half-width-desktop {
+    width: 48%;
+  }
+
+  .margin-desktop {
+    margin: 0 30px;
+  }
+}
+
+/*FIN MAS PEQUEÑA QUE 990PX (TABLET) ======================== */
+
+/* ========================================================== */
+
+/*BRANDS 766PX ===============================================*/
+
+@media (max-width: 766px) {
+  .brands {
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+
+  .brands img {
+    margin-top: 2rem;
+    padding: 5%;
+    max-width: 15%;
+    position: relative;
+    overflow: hidden;
+
+  }
+
+  .margin-index {
+    width: 100%;
+    margin: 5% 5% 5% 5%;
+  }
+
+  .slideLeft {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    animation: slideLeft 8s linear infinite;
+
+  }
+}
+
+/*FIN BRANDS =============================================== */
+
+/* ========================================================= */
+
+/*SECCION REVIEWS====766PX================================== */
+
+@media (min-width: 766px) {
+  .box-sm {
+    margin: 100px 60px;
+  }
+}
+
+.review-box {
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+@media (min-width: 766px) {
+  .review-box {
+    height: 622px;
+    flex-direction: row;
+  }
+}
+
+
+@media (min-width: 766px) {
+  .review-col {
+    padding: 50px;
+    flex-direction: column;
+  }
+}
+
+.review-col:nth-child(2) {
+  flex: 2;
+  padding: 59px 0;
+  flex-direction: column;
+  padding: 0 30px;
+}
+
+
+@media (min-width: 766px) {
+  .review-col:nth-child(2) {
+    padding: 120px 0;
+  }
+}
+
+
+@media (min-width: 766px) {
+  .review-col h2 {
+    font-size: 40px;
+    color: var(--light-grey);
+    line-height: 49px;
+  }
+
+  .review-col q {
+    font-size: 24px;
+    color: var(--yellow);
+    max-width: 596px;
+    margin: auto;
+  }
+}
+
+
+@media (min-width: 766px) {
+  .review-name-img img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .review-name-text h3 {
+    font-size: 17px;
+  }
+
+  .review-name-text p {
+    font-size: 13px;
+  }
+}
+
+.emoji {
+  width: 80px;
+  margin: 10px 0;
+}
+
+@media (min-width: 766px) {
+  .emoji {
+    width: 150px;
+  }
+}
+
+/*FIN SECCION REVIEWS==766PX ===================================== */
+
+/* =============================================================== */
+
+
+/*CONTACT US ========766PX======================================== */
+
+
+@media (min-width: 766px) {
+  #contact {
+    margin-top: 90px;
+    padding: 130px 170px;
+  }
+}
+
+@media (min-width: 766px) {
+  .doble-input {
+    flex: 1;
+    width: 50%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* FIN CONTACT US 766PX ======================= */
+
+/* ===================================================== */
+
+/* FINAL POR FIN!!! YUJUUUUUUUUUUUUUUUUUUUUUUU!!!! */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+  .margin-large {
+    margin: 0px 50px;
+  }
+
+  .margin-medium {
+    margin: 0px 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .margin-large {
+    margin: 0px 150px;
+  }
+
+  .margin-medium {
+    margin: 0px 60px;
+  }
+}

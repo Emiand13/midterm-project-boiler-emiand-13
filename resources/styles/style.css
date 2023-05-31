@@ -6,8 +6,6 @@
   --primary: #072ac8;
   --secondaryDark: #ffc600;
   --dark-blue-hover: #536ad5;
-  --blue1: #33cfff;
-  --blue2: #8bccf8;
   --light-blue: #b0dcf7;
   --black: #282e4b;
   --dark-grey: #616b8f;
@@ -24,7 +22,6 @@
 * {
   margin: 0px;
   padding: 0px;
-  border: 0px;
   font-family: "Roboto";
   color: var(--dark-grey);
   font-size: 17px;
@@ -46,7 +43,7 @@ a:active {
 
 
 body {
-  background-color: #f4f6fc;
+  background-color: var(--light-grey);
 }
 
 h1,
@@ -79,7 +76,7 @@ h5,
 
 h1 {
   font-size: 60px;
-  line-height: 70px;
+  
 }
 
 h2 {
@@ -172,7 +169,7 @@ h4 {
   max-width: 100vw;
   height: 100vh;
   z-index: 200;
-  background-color: #f2f4fc;
+  background-color: var(--light-grey)
 }
 
 .supersplash.display-none {
@@ -184,7 +181,7 @@ h4 {
   max-width: 1200px;
   height: 100vh;
   z-index: -10;
-  background-color: #f2f4fc;
+  background-color: var(--light-grey);
   transition: all 1s;
 }
 
@@ -359,7 +356,7 @@ h4 {
   margin: 3% 7.5% 3% 7.5%;
 }
 
-.brands img {
+.brands img {  
   margin-top: 17vw;
   width: 120px;
   height: 90px;
@@ -497,34 +494,53 @@ h4 {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  align-content: center;
   text-align: center;
-  margin-bottom: 150px;
-  margin-top: 120px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  gap: 50px;
+  padding: 80px 180px 80px 180px;
+
+}
+
+.recent-projects div{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--white);
+  gap: 25px;
+
 }
 
 .recent-projects h3 {
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content:space-between;
   flex-direction: column;
-  text-align: center;
+  text-align:start;
   padding: 0px;
-  margin-right: 40px;
-  margin-left: -30px;
-  margin-bottom: 50px;
+  gap: 25px;
 
 }
 
-.projects-img {
-  width: 340px;
-  height: 200px;
+.container-services{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--white);
+  gap: 25px;
 
-  margin-right: 40px;
-  margin-bottom: 15px;
-  margin-left: 40px;
-  margin-top: 20px;
+}
+.projects-img {
+  width: 100%;
+  height: 220px;
+  box-sizing: content-box;
+
+
+  margin-bottom: 0px;
+  margin-top: 0px;
+  gap: 25px;
 }
 
 .feature-text {
@@ -534,22 +550,24 @@ h4 {
 }
 
 .inner-project a {
-  margin-top: 50px;
+  padding-top: 15px;
+  padding-bottom:  25px;
   padding-left: 0px;
   text-align: center;
 
-  color: var(--dark-blue);
+  color: var(--primary);
 }
 
 .projects a:hover {
   font-weight: bold;
-  color: var(--primary);
+ 
 }
 
 
 .inner-project {
   width: 100%;
   text-align: center;
+  flex-wrap: wrap;
 }
 
 .inner-project h4 {
@@ -638,7 +656,8 @@ h4 {
   display: flex;
   flex-direction: row;
   text-align: center;
-  justify-content: flex-start;
+  padding-left: 100px;
+  
 }
 
 .container-services h5 {
@@ -655,6 +674,7 @@ h4 {
   align-items: flex-start;
   border-radius: 20px;
   margin: 50px;
+  background-color: var(--white);
   box-shadow: var(--yellow) 0px 7px 29px 0px;
 }
 
@@ -682,8 +702,7 @@ h4 {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
-  align-content: center;
+  justify-content: space-around;
   margin-left: 3em;
   margin-right: 3em;
   margin-bottom: 40px;
@@ -873,47 +892,6 @@ h4 {
 
 
 
-#project-article {
-  margin-top: 200px;
-}
-
-.project-subtitle {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
-.project-subtitle span {
-  font-size: 20px;
-}
-
-.project-image {
-  max-height: 444px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px;
-  overflow: hidden;
-
-}
-
-.project-image img {
-  width: 100%;
-}
-
-.project-description {
-  margin-top: 50px;
-}
-
-#content-not-found {
-  margin: 200px 0 200px;
-  text-align: center;
-}
-
-#content-not-found h1 {
-  margin-bottom: 40px;
-}
-
 /*FIN PROJECT PAGE SIMPLE MAIN ==================================================== */
 
 /* ================================================= */
@@ -1032,3 +1010,47 @@ h4 {
 }
 
 /* FINAL POR FIN!!!!! YUJJUUUUUUUUUUUUUUUUUUUU!!!!!! */
+
+
+
+/*
+#project-article {
+  margin-top: 200px;
+}
+
+.project-subtitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.project-subtitle span {
+  font-size: 20px;
+}
+
+.project-image {
+  max-height: 444px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  overflow: hidden;
+
+}
+
+.project-image img {
+  width: 100%;
+}
+
+.project-description {
+  margin-top: 50px;
+}
+
+#content-not-found {
+  margin: 200px 0 200px;
+  text-align: center;
+}
+
+#content-not-found h1 {
+  margin-bottom: 40px;
+} */

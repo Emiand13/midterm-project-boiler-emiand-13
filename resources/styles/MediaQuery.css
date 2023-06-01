@@ -136,6 +136,22 @@
 /* MAS PEQUEÑA QUE 766PX (MÓVIL) ============================= */
 
 @media (max-width: 766px) {
+
+  .top-nav {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    background-color: #f4f6fc;
+    border-bottom: 0.5px solid var(--secondaryDark);
+    justify-content: space-evenly;
+    align-items: center;
+    top: 60px;
+    height: 80px;
+    top: 0px;
+    z-index: 1;
+  }
+
   .move-logo {
     width: 4rem;
     height: 4rem;
@@ -164,9 +180,10 @@
   }
 
   .home h1 {
-    margin-top: 30vw;
+    margin-top: 75vw;
     font-size: 2rem;
   }
+
 
   .buttonsHero {
     width: 300px;
@@ -346,7 +363,7 @@
     margin: 0;
     padding: 0.5em 0;
     width: 100%;
-   
+
     background-color: var(--light-blue);
 
   }
@@ -472,18 +489,18 @@
 /*RECENT PROJECTS ========================================== */
 
 @media (max-width: 766px) {
-.recent-projects {
-  width: 100%;
-  display: flex;
-  flex-direction:column;
-  flex-wrap: wrap;
-  align-items:flex-start;
-  text-align: center;
-  margin-bottom: 150px;
-  margin-top: 120px;
-  gap: 50px;
-  padding: 20px 30px 25px 50px;
-}
+  .recent-projects {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    text-align: center;
+    margin-bottom: 150px;
+    margin-top: 120px;
+    gap: 50px;
+    padding: 30px 0px 0px 15px;
+  }
 }
 
 /* ========================================================= */
@@ -577,6 +594,33 @@
 
 /*FIN SECCION REVIEWS==766PX ===================================== */
 
+/* SERVICES TITULO============ */
+@media (max-width: 766px) {
+
+  .our-services h3 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-left: 70px;
+  }
+}
+
+/* =============================== */
+
+/* NEWSLETTER ========================== */
+
+@media (max-width: 766px) {
+  #newsletter {
+    margin: 35px 50px 55px 45px;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--yellow);
+    border-radius: 20px;
+  }
+}
+
 /* =============================================================== */
 
 
@@ -606,80 +650,69 @@
 /* PROJECT PAGE SIMPLE ==================== */
 
 
-@media (max-width: 766px) { 
-.project-article {
-  padding: 100px 200px 10px 20px;
-  
+@media (max-width: 766px) {
+  .project-article {
+    padding: 100px 200px 10px 20px;
+
+  }
+
+  .simplify {
+    margin-left: 10px;
+
+  }
+
+  .project-name {
+    margin-left: 10px;
+
+    margin-right: 50px;
+    flex-wrap: wrap;
+
+  }
+
+  .date {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+
+  }
+
+  .project-image img {
+    width: 545px;
+    margin-bottom: 25px;
+
+  }
+
+
+  .other-projects h3 {
+    padding: 35px 20px 50px 45px;
+
+  }
+
+  .projects-wrapper2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 50px;
+  }
+
+  .projects-img2{
+    width: 500px;
+    height: 445px;
+    margin-left: 50px;
+
+
+  }
+
+  .inner-project2 {
+    width: 590px;
+    text-align: center;
+
+
+  }
 }
 
-.simplify {
-  margin-left: 10px;
- 
-}
-
-.project-name {
-  margin-left: 10px;
- 
-  margin-right: 50px;
-  flex-wrap: wrap;
-
-}
-
-.date {
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: 15px;
- 
-}
-
-.project-image img {
-  width: 545px;
-  margin-bottom: 25px;
- 
-} 
-
-
-.other-projects h3 {
-  padding: 35px 20px 50px 45px;
-
-}
-
-.projects-wrapper {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  flex-wrap: wrap;
-  gap: 50px;
-  margin-bottom: 50px;
-}
-
-.projects-img {
-  width: 500px;
-  height: 445px;
-  margin-left:50px;
- 
-  
-}
-.inner-project {
-  width: 590px;
-  text-align: center;
-  
-  
-}
-
-/* newsletter =======mover a su sitio */
-
-#newsletter {
-  margin: 55px 200px 55px 45px;
-  height: 550px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--yellow);
-  border-radius: 20px;
-
-}
-}
 
 
 
@@ -693,29 +726,3 @@
 /* ===================================================== */
 
 /* FINAL POR FIN!!! YUJUUUUUUUUUUUUUUUUUUUUUUU!!!! */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

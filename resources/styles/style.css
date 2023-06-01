@@ -925,6 +925,52 @@ h4 {
   flex-wrap: wrap;
 }
 
+.projects-img2 {
+  width: 100%;
+  height: 220px;
+  box-sizing: content-box;
+
+
+  margin-bottom: 0px;
+  margin-top: 0px;
+  gap: 25px;
+}
+
+
+.feature-text2 {
+  padding: 0px;
+  margin-bottom: 10px;
+
+}
+
+.inner-project2 a {
+  padding-top: 15px;
+  padding-bottom: 25px;
+  padding-left: 0px;
+  text-align: center;
+
+  color: var(--primary);
+}
+
+.other-projects a:hover {
+  font-weight: bold;
+
+}
+
+
+.inner-project2 {
+  width: 100%;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.inner-project2 h4 {
+  padding-left: 0px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
 
 
 /*FIN PROJECT PAGE SIMPLE  ==================================================== */
@@ -937,7 +983,7 @@ h4 {
 
 }
 
-.projects-wrapper {
+.projects-wrapper2 {
   display: flex;
   justify-content: center;
   flex-direction: row;

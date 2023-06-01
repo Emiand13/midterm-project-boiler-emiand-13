@@ -741,22 +741,21 @@ h4 {
 
 /*NEWSLETTER ESTILOS =========================================== */
 
+
 #newsletter {
-  margin:  50px 50px 50px 50px;
   height: 500px;
+
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--yellow);
   border-radius: 20px;
+  background-color: var(--yellow);
 }
-
 .newsletter-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 #newsletter h3,
 #newsletter p {
   color: var(--black);
@@ -766,41 +765,42 @@ h4 {
 #newsletter p {
   margin: 30px 0 60px 0;
 }
-
 .newsletter-subscribe {
   width: 100%;
+
   display: flex;
   justify-content: space-between;
+
   position: relative;
 }
-
 .newsletter-subscribe-input {
   width: 100%;
   height: 52px;
+
   display: flex;
+
   margin-bottom: 20px;
+
   background-color: var(--white);
 }
-
 .newsletter-subscribe-input input {
   width: 100%;
   height: 96%;
+
   color: var(--black);
 }
-
 .newsletter-subscribe-input input::placeholder {
   color: var(--black);
 }
-
 .newsletter-subscribe-input input:focus,
 .newsletter-subscribe-input input:focus-visible {
   outline: none;
 }
-
 .newsletter-subscribe-input img {
   width: 25px;
   margin: 0 20px;
 }
+
 
 /*FIN NEWSLETTER ESTILOS =========================================== */
 
@@ -830,6 +830,7 @@ h4 {
 
 .footer-content {
   font-size: 17px;
+  margin-left: 15px;
 }
 
 .footer-content p {
@@ -896,6 +897,7 @@ h4 {
 .project-article {
   padding: 200px 200px 100px 200px;
   flex-wrap: wrap;
+  
 }
 
 .simplify {
@@ -913,8 +915,7 @@ h4 {
 
 .date {
   display: flex;
-  float: right;
-  margin-left: 25rem;
+  margin-left: 50rem;
   margin-bottom: 15px;
   flex-wrap: wrap;
 }

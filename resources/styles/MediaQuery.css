@@ -603,19 +603,7 @@
 
 /* =============================== */
 
-/* NEWSLETTER ========================== */
 
-@media (max-width: 766px) {
-  #newsletter {
-    margin: 50px 200px 55px 45px;
-    height: 550px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--yellow);
-    border-radius: 20px;
-  }
-}
 
 /* =============================================================== */
 
@@ -647,35 +635,28 @@
 
 @media (max-width: 766px) {
 #footer {
-  width: 70%;
+  width: 100%;
   color: var(--dark-grey);
   margin-top: 20px;
 }
 }
-
-
-
-
-
-
-
 
 /* PROJECT PAGE SIMPLE ==================== */
 
 
 @media (max-width: 766px) {
   .project-article {
-    padding: 115px 155px 85px 45px;
+    padding: 115px 245px 85px 45px;
 
   }
 
   .simplify {
-    margin-left: 10px;
+    margin-left: -15px;
 
   }
 
   .project-name {
-    margin-left: 10px;
+    margin-left: -15px;
 
     margin-right: 50px;
     flex-wrap: wrap;
@@ -683,15 +664,18 @@
   }
 
   .date {
-    display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     margin-bottom: 15px;
+    margin-left: 2px;
+   
 
   }
 
   .project-image img {
-    width: 545px;
+    width: 450px;
+    height: 350px;
     margin-bottom: 25px;
+    margin-left: -15px ;
 
   }
 
@@ -711,15 +695,15 @@
   }
 
   .projects-img2 {
-    width: 500px;
-    height: 445px;
+    width: 450px;
+    height: 350px;
     margin-left: 50px;
 
 
   }
 
   .inner-project2 {
-    width: 590px;
+    width: 545px;
     text-align: center;
 
 

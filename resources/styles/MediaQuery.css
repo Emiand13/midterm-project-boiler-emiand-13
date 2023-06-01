@@ -19,7 +19,7 @@
   --circular-line-width: 2px;
 }
 
-/*INDEX.HTML 990 PX=========================> */
+/*HEADER MIN 990PX ================= */
 
 @media (min-width:990px) {
 
@@ -28,16 +28,12 @@
     height: 5rem;
     margin-left: -0.5rem;
     margin-top: 0.6rem;
-
     transition: transform 0.3s;
-
   }
 
   .move-logo:hover {
     transform: scale(1.4);
-
   }
-
 
   .section1 {
     display: flex;
@@ -611,7 +607,7 @@
 
 @media (max-width: 766px) {
   #newsletter {
-    margin: 35px 50px 55px 45px;
+    margin: 50px 200px 55px 45px;
     height: 550px;
     display: flex;
     align-items: center;
@@ -647,12 +643,29 @@
 /* FIN CONTACT US 766PX ======================= */
 
 
+/* FOOTER ===================== */
+
+@media (max-width: 766px) {
+#footer {
+  width: 70%;
+  color: var(--dark-grey);
+  margin-top: 20px;
+}
+}
+
+
+
+
+
+
+
+
 /* PROJECT PAGE SIMPLE ==================== */
 
 
 @media (max-width: 766px) {
   .project-article {
-    padding: 100px 200px 10px 20px;
+    padding: 115px 155px 85px 45px;
 
   }
 
@@ -697,7 +710,7 @@
     margin-bottom: 50px;
   }
 
-  .projects-img2{
+  .projects-img2 {
     width: 500px;
     height: 445px;
     margin-left: 50px;
@@ -713,16 +726,22 @@
   }
 }
 
-
-
-
-
-
-
-
-
-
-
 /* ===================================================== */
+
+/* MOBILES MAX 575PX ==================== */
+
+@media (max-width: 575px) {}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* FINAL POR FIN!!! YUJUUUUUUUUUUUUUUUUUUUUUUU!!!! */

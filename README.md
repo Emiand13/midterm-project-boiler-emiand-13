@@ -40,7 +40,7 @@
 
 En primer lugar vamos a crear una Website para Circle Agency en la cual vamos a tener diferentes secciones en la cuales vamos a trabajar y su proposito principal será practicar en este proyecto todos los conocimientos que hemos ido adquiriendo durante el Bootcamp de IronHack y recrear una pagina web oficial con todas sus funciones y caracteristicas.
 
-En este proyecto vamos a implementar codigo en Hmtl5, Css3 y JavaScript las cuales hemos estado estudiando y practicando durantes estas semanas atras.
+En este proyecto vamos a implementar codigo en Hmtl5, Css3 y JavaScript las cuales hemos estado estudiando y practicando durante estas semanas atras.
 
 Las principales funcionalidades de esta Website seran poder desplazarnos por ella mediante las secciones Home, Project Page-Simple, Projects, Services, Contact-us y poder rellenar un formulario con nuestros datos en la seccion de Contact-us el cual luego enviaremos mediante metodos de JavaScript.
 

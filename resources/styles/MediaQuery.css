@@ -602,6 +602,94 @@
 
 /* FIN CONTACT US 766PX ======================= */
 
+
+/* PROJECT PAGE SIMPLE ==================== */
+
+
+@media (max-width: 766px) { 
+.project-article {
+  padding: 100px 200px 10px 20px;
+  
+}
+
+.simplify {
+  margin-left: 10px;
+ 
+}
+
+.project-name {
+  margin-left: 10px;
+ 
+  margin-right: 50px;
+  flex-wrap: wrap;
+
+}
+
+.date {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+ 
+}
+
+.project-image img {
+  width: 545px;
+  margin-bottom: 25px;
+ 
+} 
+
+
+.other-projects h3 {
+  padding: 35px 20px 50px 45px;
+
+}
+
+.projects-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.projects-img {
+  width: 500px;
+  height: 445px;
+  margin-left:50px;
+ 
+  
+}
+.inner-project {
+  width: 590px;
+  text-align: center;
+  
+  
+}
+
+/* newsletter =======mover a su sitio */
+
+#newsletter {
+  margin: 55px 200px 55px 45px;
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--yellow);
+  border-radius: 20px;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
 /* ===================================================== */
 
 /* FINAL POR FIN!!! YUJUUUUUUUUUUUUUUUUUUUUUUU!!!! */

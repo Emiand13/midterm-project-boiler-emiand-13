@@ -1218,13 +1218,34 @@ border-radius: 5px;
   font-size: 0.9rem;
 }
 
-.musica-titulo{
+/* MUSICA FAVORITA ABOUT ================================================ */
+
+
+.musica-titulo {
   text-align: center;
   padding-top: 200px;
-  height: 500px;
+  padding-bottom: 50px;
+  height: 150px;
 }
 
+.estilo-general {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.center-video {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.musica-titulo2{
+  padding-bottom: 20px;
+}
 
 
 /* ======================================================== */

@@ -1104,6 +1104,7 @@ height: 1050px;
 /* PRUEBAS TARGETAS  */
 
 .container {
+  padding-right:  75px;
   display: flex;
   flex-wrap: wrap;
  
@@ -1131,7 +1132,6 @@ height: 1050px;
   justify-content: center;
 
 } 
-
 .targeta-central{
   padding-left: 600px;
   display: flex;
@@ -1139,11 +1139,7 @@ height: 1050px;
   
 
 }
-.container .tarjeta {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-
+.container .tarjeta { 
   width: 350px;
   height: 450px;
   background-color: var(--secondaryDark);
@@ -1156,10 +1152,7 @@ height: 1050px;
   box-shadow: 0px 20px 15px -5px rgba(0, 0, 0, 0.65);
   border-radius: 10px;
 }
-.atras h4{
-  padding-left: 30px;
-  text-align: center;
-}
+
 .container .adelante,
 .container .atras {
   width: 100%;
@@ -1178,6 +1171,7 @@ height: 1050px;
   display: flex;
   color: #000000;
   font-family: "open sans";
+  flex-wrap: wrap;
 }
 
 .container .tarjeta-wrap:hover .tarjeta {
@@ -1191,12 +1185,44 @@ height: 1050px;
   object-fit: cover;
 }
 
+.text-shadow{
+display: flex;
+background-color: var(--primary); 
+padding-left: 5rem;
+color:var(--white);
+border-radius: 5px;
+}
 
+.atras h2{
+  display: flex;
+  margin-left: 4.5rem;
 
+}
 
+.atras p {
+  
+  padding-right: -1rem;
+  /* padding-top: 5px;   */
+  flex-direction:row;
+  margin-left: 1.5rem;
+  font-size: 1rem;
+  text-align:left;
+  
+}
 
+.bio p {
+  padding-right: 10rem; 
+  padding-left: 1rem; 
+  flex-direction:row;
+  margin-left: 15px;
+  font-size: 0.9rem;
+}
 
-
+.musica-titulo{
+  text-align: center;
+  padding-top: 200px;
+  height: 500px;
+}
 
 
 

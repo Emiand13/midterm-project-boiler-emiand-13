@@ -14,6 +14,7 @@
 </div>
 
 <!-- TABLE OF CONTENTS -->
+
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -28,6 +29,10 @@
      <ul>
      <li><a href="https://trello.com/b/fRoN5jJq/todo">Link Emiand13 Trello</a></li>
      </ul>
+    <li><a href="#acerca">Acerca</a></li>
+    <li><a href="#agradecimientos">Agradecimientos</a></li>
+    <li><a href="#desafío-técnico">Desafío Técnico</a></li>
+    <li><a href="#grande-error">Grande Error</a></li>
   </ol>
 </details>
 
@@ -48,7 +53,11 @@ Las principales funcionalidades de esta Website seran poder desplazarnos por ell
 
  <h3>Construido Con</h3>
 
-En esta Website vamos a utilizar lenguajes de programación como: Html5, Css3 y JavaScript.
+- Html5 - Css3 - JavaScript
+- IDE: Visual Studio Code
+- Control de versiones: GitHub Inc.
+- Servicios Cloud: Vercel & Cloudinary
+
 
 ![alt text](/resources/images/banner-readme/banner.png)
 
@@ -56,18 +65,44 @@ Usaremos tambien Github para tener un control de todos nuestros avances durante 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<h3> Agradecimientos</h3>
+
+En primer lugar, agradecer a Ironhack por esta oportunidad que gracias a nuestro trabajo en amazon podemos estar realizando, ya que es una forma de mejorar nuestros futuros que no podiamos dejar escapar, sobretodo agradecimientos a nuestro profesor Diego Zito el cual se esta volcando en nuestro aprendizaje y por ayudarnos en esta montaña rusa que es este Bootcamp!!!.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<h3> Desafío Técnico</h3>
+
+La verdad que el desafío técnico a sido brutal ya que tenia algunas nociones pero a sido como empezar de cero y dia a dia con gran esfuerzo y muchas horas de dedicación, a dia de hoy me siento parte de este gran mundo de la programación, pero aun me quedan muchisimas cosas que aprender ya que quiero seguir aprendiendo y estudiando...NEVER MASTER ALWAYS STUDENT.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<h3>Grande Error</h3>
+
+Uno de los errores mas grandes en este proyecto y que me ha dado muchisimo trabajo ha sido empezar con los estilos en Desktop antes que en Mobile lo cual me ha echo trabajar el doble en mi archivo Css y para conseguir el aspecto visual esperado he tenido que trabajar como un obrero dias y dias buscando todos aquellos fallos visuales los cuales no me gustaban y que aun hay algunos de los cuales me gustaria mejorar, otra piedra en el camino ha sido JavaScript el cual aun tengo muchas cosas que aprender y practicar ya que es bastante complejo por lo demas estoy orgulloso del trabajo realizado y con muchas ganas de empezar el siguiente reto... ;).
+
 <!-- Acerca de mi -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <h3>Acerca de mi</h3>
 
 
+Mi nombre es Emilio Carrasco tengo 35 años soy desarrollador web junior y me apasiona este mundo desde el día uno que empecé esta aventura hace ya casi dos años, cada día aprendo algo nuevo y hay una frase que quiero compartir con vosotros Never Master Always Student, ser humilde y trabajador es una característica que me define, espero algun dia tener un trabajo de programador y poder cumplir un sueño. 
 
-Mi nombre es Emilio Carrasco tengo 35 años soy desarrollador web junior y me apasiona este mundo desde el día uno que empecé esta aventura hace ya casi dos años, cada día aprendo algo nuevo y hay una frase que quiero compartir con vosotros Never Master Always Student, ser humilde y trabajador es una caracteristica que me define espero algun dia tener un trabajo de programador y poder cumplir un sueño. 
+Espero poder ayudaros en todo lo que este de mi mano, si teneis algun problema con el proyecto o puedo ayudaros con algo mi correo estara justo aqui debajo, gracias... y nos vemos pronto...
 
-Espero poder ayudaros en todo lo que este de mi mano, si teneis algun problema con el proyecto o puedo ayudaros con algo mi correo estara justo aqui debajo, gracias...
+Aqui os dejo los links del proyecto:
+
+Project Link GitHub: https://github.com/Emiand13/midterm-project-boiler-emiand-13
+
+Project Link Vercel: https://vercel.com/emiand13/midterm-project-boiler-emiand-13
+
+Presentation Link: Próximamente...
+
 
 ⚜️life is for the living⚜️
 
 Emilio Carrasco - 13emiand@gmail.com
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p># midterm-project-boiler-emiand-13
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

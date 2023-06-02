@@ -96,7 +96,7 @@ Aqui os dejo los links del proyecto:
 
 Project Link GitHub: https://github.com/Emiand13/midterm-project-boiler-emiand-13
 
-Project Link Vercel: https://vercel.com/emiand13/midterm-project-boiler-emiand-13
+Project Link Vercel: https://midterm-project-boiler-emiand-13-emiand13.vercel.app/index.html#services
 
 Presentation Link: Próximamente...
 

@@ -20,7 +20,7 @@ function getPost() {
         </div>
         <div class="project-image">
         
-        <img src="${project.image} "> 
+        <img src="${project.image}"> 
         </div>
         
         <div>
@@ -36,6 +36,8 @@ function getPost() {
 }
 
 getPost();
+
+
 
 
 

@@ -113,7 +113,7 @@
     padding: 12px 25px 12px 25px;
     color: #F2F4FC;
     border-radius: 15px;
-
+    margin-right: 15px;
   }
 
   .buttonWhite {
@@ -662,7 +662,6 @@
 
   .project-name {
     margin-left: -15px;
-
     margin-right: 50px;
     flex-wrap: wrap;
 
@@ -700,9 +699,9 @@
   }
 
   .projects-img2 {
-    width: 450px;
+    width: 400px;
     height: 350px;
-    margin-left: 50px;
+    margin-left: 15px;
 
 
   }

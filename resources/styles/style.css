@@ -44,6 +44,9 @@ a:active {
 
 body {
   background-color: var(--light-grey);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
 }
 
 h1,
@@ -387,7 +390,7 @@ h4 {
   position: fixed;
   left: 0;
   background-color: #f4f6fc;
-  border-bottom: 0.5px solid var(--secondaryDark); 
+  border-bottom: 0.5px solid var(--secondaryDark);
   justify-content: space-evenly;
   align-items: center;
   height: 80px;
@@ -508,7 +511,6 @@ h4 {
   flex-direction: column;
   justify-content: space-between;
   background-color: var(--white);
-  /* gap: 25px; */
   box-shadow: var(--black) 0px 3px 5px 0px;
   /* border-radius: 20px 20px 20px 20px; */
 
@@ -518,7 +520,7 @@ h4 {
   width: 100%;
   text-align: center;
   padding: 0px;
-  gap: 25px;
+
 
 }
 
@@ -535,7 +537,7 @@ h4 {
 .projects-img {
   width: 100%;
   height: 220px;
-  
+
   margin-bottom: 0px;
   margin-top: 0px;
   gap: 25px;
@@ -658,8 +660,14 @@ h4 {
 
 }
 
+.container-services p {
+  font-size: 1.1rem;
+  margin: 0 27px 27px 27px;
+}
+
 .container-services h5 {
-  padding: 25px;
+  font-size: 1.3rem;
+    margin: 27px;
 }
 
 .container-services {
@@ -673,26 +681,19 @@ h4 {
   border-radius: 20px;
   margin-top: 50px;
   background-color: var(--white);
-  box-shadow: var(--black) 0px 7px 10px 0px;
+  box-shadow: var(--black) 2px 8px 10px 3px;
 }
 
 .services-img {
-  width: 40px;
-  height: 40px;
-
-  display: inline-block;
-
-  margin: 50px;
-  padding: 15px;
-
-  line-height: 100%;
+  width: 70px;
+  height: 55px;
+  background-color:var(--light-blue);
+  margin: 34px 0 0 34px;
+  padding-top: 10px;
   color: var(--white);
   text-align: center;
-
   box-shadow: none;
-  border-radius: 20px;
-
-  background-color: rgba(13, 167, 238, 0.151);
+  border-radius: 100px;
 }
 
 .services {
@@ -715,15 +716,12 @@ h4 {
   margin-bottom: 50px;
 }
 
-.projects-services .feature-text-services {
-  padding: 25px;
-}
 
 .projects-services a {
-  margin-top: 20px;
   padding-left: 25px;
   padding-bottom: 15px;
-  color: var(--dark-blue);
+  color: var(--dark-blue-hover);
+  font-weight: bold; 
 }
 
 .projects-services a:hover {
@@ -935,7 +933,7 @@ h4 {
   margin-bottom: -5px;
   margin-top: 0px;
   gap: 25px;
-  
+
 }
 
 
@@ -977,7 +975,7 @@ h4 {
 .inner-project2 h4 {
   padding-left: 0px;
   padding-top: 10px;
-  
+
   font-weight: bold;
 }
 
@@ -1028,17 +1026,17 @@ h4 {
 
 .form-input input,
 .form-input textarea {
-  background: rgba(107, 112, 141, 0.1);
+  background: rgba(106, 113, 140, 0.1);
   width: 100%;
   padding: 22px 20px;
-  box-sizing: border-box;
+  box-sizing: border-box; 
 }
 
 .form-input input:focus,
 .form-input input:active,
 .form-input textarea:focus,
 .form-input textarea:active {
-  outline: 3px solid #072ac8;
+  outline: 3px solid var(--primary);
 }
 
 .doble-input {
@@ -1111,7 +1109,6 @@ height: 1050px;
 /* PRUEBAS TARuAS  */
 
 .container {
-
   display: flex;
   flex-wrap: wrap;
 
@@ -1119,8 +1116,9 @@ height: 1050px;
 
 .container .wrap {
   display: flex;
-  width: 300px;
+  width: 365px;
   margin: 30px auto;
+
 }
 
 .container .tarjeta-wrap {
@@ -1129,6 +1127,7 @@ height: 1050px;
   margin: 10px;
   -webkit-perspective: 800;
   perspective: 800;
+  
 }
 
 .about-container{
@@ -1137,12 +1136,13 @@ height: 1050px;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+ 
 
 }
 .targeta-central{
-  padding-left: 600px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 
 
 }
@@ -1158,6 +1158,7 @@ height: 1050px;
   -webkit-box-shadow: 0px 20px 15px -5px rgba(0, 0, 0, 0.65);
   box-shadow: 0px 20px 15px -5px rgba(0, 0, 0, 0.65);
   border-radius: 10px;
+  
 }
 
 .container .adelante,
@@ -1207,21 +1208,23 @@ border-radius: 5px;
 }
 
 .atras p {
-
-  padding-right: -1rem;
   flex-direction:row;
-  margin-left: 1.5rem;
+  margin-left: 1.5rem; 
   font-size: 1rem;
   text-align:left;
+  font-weight: normal;
+  color: var(--black);
+
 
 }
 
 .bio p {
-  padding-right: 10rem;
-  padding-left: 1rem;
+  
   flex-direction:row;
   margin-left: 15px;
   font-size: 0.9rem;
+  font-weight:normal;
+  color:var(--black);
 }
 
 /* MUSICA FAVORITA ABOUT ================================================ */

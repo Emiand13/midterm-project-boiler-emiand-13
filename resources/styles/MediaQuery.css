@@ -709,17 +709,23 @@
   .projects-img2 {
     width: 400px;
     height: 350px;
-    margin-left: 15px;
+    margin-left: 30px;
 
 
   }
 
   .inner-project2 {
-    width: 545px;
+    width: 400px;
+    height: 120px;
     text-align: center;
-
-
+    margin-left: 30px;
+  
   }
+
+
+
+
+
 }
 
 /* ===================================================== */
@@ -727,17 +733,6 @@
 /* MOBILES MAX 575PX ==================== */
 
 @media (max-width: 575px) {}
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* FINAL POR FIN!!! YUJUUUUUUUUUUUUUUUUUUUUUUU!!!! */

@@ -62,7 +62,7 @@
    <section id="contact">
       <h1>Contact Us</h1>
 
-      <form name="myForm" class="contact-form" action="/contactform.php" onsubmit="return validateForm()" method="post">
+      <form name="myForm" class="contact-form" onsubmit="return validateForm()" method="post">
          <div class="form-label">
             <label for="name">Full name *</label>
          </div>
@@ -73,7 +73,7 @@
 
          <div class="doble-input">
             <div class="form-label">
-               <label for="email">E-mail</label>
+               <label for="email">E-mail *</label>
             </div>
             <div class="form-input">
                <input type="email" id="email" name="email" placeholder="Enter your e-mail address" />
@@ -81,7 +81,7 @@
          </div>
          <div class="doble-input">
             <div class="form-label">
-               <label for="phone">Phone</label>
+               <label for="phone">Phone *</label>
             </div>
             <div class="form-input">
                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" />
@@ -89,7 +89,7 @@
          </div>
 
          <div class="form-label">
-            <label for="message">Message</label>
+            <label for="message">Message *</label>
          </div>
          <div class="form-input">
             <textarea rows="10" name="message" placeholder="Write your message here ...."></textarea>

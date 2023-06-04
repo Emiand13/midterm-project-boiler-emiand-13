@@ -656,6 +656,7 @@
 
 @media (max-width: 766px) {
   .project-article {
+    width: 350px;
     padding: 115px 50px 85px 45px;
 
   }
@@ -681,7 +682,7 @@
   }
 
   .project-image img {
-    width: 400px;
+    width: 350px;
     height: 350px;
     margin-bottom: 25px;
     margin-left: -15px ;
@@ -704,7 +705,7 @@
   }
 
   .projects-img2 {
-    width: 400px;
+    width: 350px;
     height: 350px;
     margin-left: 30px;
 
@@ -712,14 +713,23 @@
   }
 
   .inner-project2 {
-    width: 400px;
+    width: 350px;
     height: 120px;
     text-align: center;
     margin-left: 30px;
   
   }
 
-
+  #newsletter {
+    width: 400px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: var(--yellow);
+  
+  }
 
 
 

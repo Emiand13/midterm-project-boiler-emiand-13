@@ -1150,7 +1150,7 @@ height: 1050px;
 .container .tarjeta {
   width: 350px;
   height: 450px;
-  background-color: var(--secondaryDark);
+  background-color: var(--light-blue);
   position: relative;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
@@ -1171,6 +1171,7 @@ height: 1050px;
   left: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+
 }
 
 .container .atras {
@@ -1181,6 +1182,7 @@ height: 1050px;
   color: #000000;
   font-family: "open sans";
   flex-wrap: wrap;
+  
 }
 
 .container .tarjeta-wrap:hover .tarjeta {

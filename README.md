@@ -54,12 +54,14 @@ Las principales funcionalidades de esta Website seran poder desplazarnos por ell
  <h3>Construido Con</h3>
 
 - Html5 - Css3 - JavaScript
+
+![alt text](/resources/images/banner-readme/banner.png)
+
 - IDE: Visual Studio Code
 - Control de versiones: GitHub Inc.
 - Servicios Cloud: Vercel & Cloudinary
 
-
-![alt text](/resources/images/banner-readme/banner.png)
+![alt text](/resources/images/banner-readme/vercel-hero.jpg)
 
 Usaremos tambien Github para tener un control de todos nuestros avances durante estas dos semanas de proyecto, y Netlify o Vercel que son servicios de alojamiento y despliegue de aplicaciones web estáticas que te permiten publicar y gestionar sitios web de manera eficiente, automatizada y escalable. Son especialmente útiles para desarrolladores web que buscan un proceso de implementación y alojamiento simplificado y optimizado.
 

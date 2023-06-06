@@ -98,7 +98,7 @@ Project Link GitHub: https://github.com/Emiand13/midterm-project-boiler-emiand-1
 
 Project Link Vercel: https://midterm-project-boiler-emiand-13-emiand13.vercel.app/index.html#services
 
-Presentation Link: Próximamente...
+Presentation Link: https://www.canva.com/design/DAFks6kxDV4/_7QJCpj5JEqFXo5cBNn4QQ/view#9
 
 
 ⚜️life is for the living⚜️

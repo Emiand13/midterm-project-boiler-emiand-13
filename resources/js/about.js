@@ -1,5 +1,6 @@
 
 
+// En esta linea de codigo hacemos un Fetch para entrar en el archivo local Emi.json y extraer la informacion para que se vea en el html detras de la tarjeta de la seccion About
 
 document.addEventListener("DOMContentLoaded", function() {
     // Cargar el archivo JSON
